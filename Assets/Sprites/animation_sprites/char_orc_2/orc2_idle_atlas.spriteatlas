@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: orc2_idle_atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: da49414b81a9dfb428bd3aea4d931bfa, type: 3}
+    - {fileID: 2800000, guid: b57eac3583ff75e4099bcd71cafda875, type: 3}
+    - {fileID: 2800000, guid: 6b8d5f13b4d368143ad1d238bc029118, type: 3}
+    - {fileID: 2800000, guid: 2bbb6971c0af59d4a9c7070fc3757b29, type: 3}
+    - {fileID: 2800000, guid: 77e8aaf2f1232814c9687030020a45c5, type: 3}
+    - {fileID: 2800000, guid: 33705600d3334aa48a4d082fe374a792, type: 3}
+    - {fileID: 2800000, guid: 4592461a23b30a14eb3fba7e591885fb, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 33705600d3334aa48a4d082fe374a792: 21300000
+    - 2bbb6971c0af59d4a9c7070fc3757b29: 21300000
+    - 77e8aaf2f1232814c9687030020a45c5: 21300000
+    - 6b8d5f13b4d368143ad1d238bc029118: 21300000
+    - b57eac3583ff75e4099bcd71cafda875: 21300000
+    - 4592461a23b30a14eb3fba7e591885fb: 21300000
+    - da49414b81a9dfb428bd3aea4d931bfa: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 33705600d3334aa48a4d082fe374a792, type: 3}
+  - {fileID: 21300000, guid: 2bbb6971c0af59d4a9c7070fc3757b29, type: 3}
+  - {fileID: 21300000, guid: 77e8aaf2f1232814c9687030020a45c5, type: 3}
+  - {fileID: 21300000, guid: 6b8d5f13b4d368143ad1d238bc029118, type: 3}
+  - {fileID: 21300000, guid: b57eac3583ff75e4099bcd71cafda875, type: 3}
+  - {fileID: 21300000, guid: 4592461a23b30a14eb3fba7e591885fb, type: 3}
+  - {fileID: 21300000, guid: da49414b81a9dfb428bd3aea4d931bfa, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - orc2_idle_frame_5
+  - orc2_idle_frame_3
+  - orc2_idle_frame_4
+  - orc2_idle_frame_2
+  - orc2_idle_frame_1
+  - orc2_idle_frame_6
+  - orc2_idle_frame_0
+  m_RenderDataMap: {}
+  m_Tag: orc2_idle_atlas
+  m_IsVariant: 0
