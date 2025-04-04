@@ -10,15 +10,12 @@ public class MainMenuController : MonoBehaviour
     [SerializeField] private Button _quitGameButton;
     [SerializeField] private Animator _startGameButtonAnim;
     [SerializeField] private Animator _quitGameButtonAnim;
-    
 
     private void OnEnable()
     {
         _startGameButton.onClick.AddListener(StartGamePlay);
         _quitGameButton.onClick.AddListener(QuitGame);
     }
-
-    
 
     void Start()
     {
@@ -28,11 +25,10 @@ public class MainMenuController : MonoBehaviour
     {
         _startGameButtonAnim.SetTrigger("ButtonPressed");
     }
-    
+
     private void QuitGame()
     {
         _quitGameButtonAnim.SetTrigger("ButtonPressed");
-     //   Application.Quit();
     }
 
     private void OnDisable()

@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: char_1_atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: e4c43ec7ba240ff4c861e84a4ee8d270, type: 3}
+    - {fileID: 2800000, guid: ae85b43e5c6fb7244be2367b4bb99033, type: 3}
+    - {fileID: 2800000, guid: c52ffb394d17d5248ac625be360f4cfa, type: 3}
+    - {fileID: 2800000, guid: 3f6cac47d64c6764fb6c4f1737b86048, type: 3}
+    - {fileID: 2800000, guid: c7fc4bcf8bbab7a49a209b53ef715bfd, type: 3}
+    - {fileID: 2800000, guid: 5f402689277d25d4993767e03594b0e2, type: 3}
+    - {fileID: 2800000, guid: 89316be1fb4b1444cacd01b99fddc217, type: 3}
+    - {fileID: 2800000, guid: 703c3fe5e54562840b86983694d20bc2, type: 3}
+    - {fileID: 2800000, guid: d5280076653392a4daf327bcda0b7d6c, type: 3}
+    - {fileID: 2800000, guid: 57a36efc870fdc442a552b3fdb78c9c9, type: 3}
+    - {fileID: 2800000, guid: 9f28c7b62e17dbd4a8ffbfcfd9b34ac9, type: 3}
+    - {fileID: 2800000, guid: 336858636e254a845952b67ce64903b2, type: 3}
+    - {fileID: 2800000, guid: e67710bbe1cb6454f9ce86c187d254dc, type: 3}
+    - {fileID: 2800000, guid: 24494ded9685c2546a916a3cc6181e0c, type: 3}
+    - {fileID: 2800000, guid: a42d42ab4d243a843bf0337bf940f5b7, type: 3}
+    - {fileID: 2800000, guid: 47ac868b2474ee44da5f1eec1bd6c90a, type: 3}
+    - {fileID: 2800000, guid: 3c230c00b9298644d9ebdf49f1ae0861, type: 3}
+    - {fileID: 2800000, guid: b6519a9a7e5142d44ad688b3c2fa7b35, type: 3}
+    - {fileID: 2800000, guid: cd0461e84fe30a94ba790cb7924b7cc5, type: 3}
+    - {fileID: 2800000, guid: c0c731a13ac6180499728eda795bfcc9, type: 3}
+    - {fileID: 2800000, guid: 453ba15ba36adbc49a2489a0f015af5a, type: 3}
+    - {fileID: 2800000, guid: 94313f4706c530f4e842effce46dfd6a, type: 3}
+    - {fileID: 2800000, guid: e42d4ea2bd2117744980122657d32d5f, type: 3}
+    - {fileID: 2800000, guid: 95d6001b80f7f5543896dafc13311edf, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 3c230c00b9298644d9ebdf49f1ae0861: 21300000
+    - c0c731a13ac6180499728eda795bfcc9: 21300000
+    - 89316be1fb4b1444cacd01b99fddc217: 21300000
+    - e42d4ea2bd2117744980122657d32d5f: 21300000
+    - 336858636e254a845952b67ce64903b2: 21300000
+    - 703c3fe5e54562840b86983694d20bc2: 21300000
+    - d5280076653392a4daf327bcda0b7d6c: 21300000
+    - 9f28c7b62e17dbd4a8ffbfcfd9b34ac9: 21300000
+    - 3f6cac47d64c6764fb6c4f1737b86048: 21300000
+    - 94313f4706c530f4e842effce46dfd6a: 21300000
+    - e4c43ec7ba240ff4c861e84a4ee8d270: 21300000
+    - cd0461e84fe30a94ba790cb7924b7cc5: 21300000
+    - c52ffb394d17d5248ac625be360f4cfa: 21300000
+    - 5f402689277d25d4993767e03594b0e2: 21300000
+    - b6519a9a7e5142d44ad688b3c2fa7b35: 21300000
+    - 95d6001b80f7f5543896dafc13311edf: 21300000
+    - 453ba15ba36adbc49a2489a0f015af5a: 21300000
+    - 47ac868b2474ee44da5f1eec1bd6c90a: 21300000
+    - a42d42ab4d243a843bf0337bf940f5b7: 21300000
+    - e67710bbe1cb6454f9ce86c187d254dc: 21300000
+    - 57a36efc870fdc442a552b3fdb78c9c9: 21300000
+    - 24494ded9685c2546a916a3cc6181e0c: 21300000
+    - ae85b43e5c6fb7244be2367b4bb99033: 21300000
+    - c7fc4bcf8bbab7a49a209b53ef715bfd: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 3c230c00b9298644d9ebdf49f1ae0861, type: 3}
+  - {fileID: 21300000, guid: c0c731a13ac6180499728eda795bfcc9, type: 3}
+  - {fileID: 21300000, guid: 89316be1fb4b1444cacd01b99fddc217, type: 3}
+  - {fileID: 21300000, guid: e42d4ea2bd2117744980122657d32d5f, type: 3}
+  - {fileID: 21300000, guid: 336858636e254a845952b67ce64903b2, type: 3}
+  - {fileID: 21300000, guid: 703c3fe5e54562840b86983694d20bc2, type: 3}
+  - {fileID: 21300000, guid: d5280076653392a4daf327bcda0b7d6c, type: 3}
+  - {fileID: 21300000, guid: 9f28c7b62e17dbd4a8ffbfcfd9b34ac9, type: 3}
+  - {fileID: 21300000, guid: 3f6cac47d64c6764fb6c4f1737b86048, type: 3}
+  - {fileID: 21300000, guid: 94313f4706c530f4e842effce46dfd6a, type: 3}
+  - {fileID: 21300000, guid: e4c43ec7ba240ff4c861e84a4ee8d270, type: 3}
+  - {fileID: 21300000, guid: cd0461e84fe30a94ba790cb7924b7cc5, type: 3}
+  - {fileID: 21300000, guid: c52ffb394d17d5248ac625be360f4cfa, type: 3}
+  - {fileID: 21300000, guid: 5f402689277d25d4993767e03594b0e2, type: 3}
+  - {fileID: 21300000, guid: b6519a9a7e5142d44ad688b3c2fa7b35, type: 3}
+  - {fileID: 21300000, guid: 95d6001b80f7f5543896dafc13311edf, type: 3}
+  - {fileID: 21300000, guid: 453ba15ba36adbc49a2489a0f015af5a, type: 3}
+  - {fileID: 21300000, guid: 47ac868b2474ee44da5f1eec1bd6c90a, type: 3}
+  - {fileID: 21300000, guid: a42d42ab4d243a843bf0337bf940f5b7, type: 3}
+  - {fileID: 21300000, guid: e67710bbe1cb6454f9ce86c187d254dc, type: 3}
+  - {fileID: 21300000, guid: 57a36efc870fdc442a552b3fdb78c9c9, type: 3}
+  - {fileID: 21300000, guid: 24494ded9685c2546a916a3cc6181e0c, type: 3}
+  - {fileID: 21300000, guid: ae85b43e5c6fb7244be2367b4bb99033, type: 3}
+  - {fileID: 21300000, guid: c7fc4bcf8bbab7a49a209b53ef715bfd, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - wraith_01_idle_004
+  - wraith_01_idle_007
+  - wraith_01_attack_006
+  - wraith_01_idle_010
+  - wraith_01_attack_011
+  - wraith_01_attack_007
+  - wraith_01_attack_008
+  - wraith_01_attack_010
+  - wraith_01_attack_003
+  - wraith_01_idle_009
+  - wraith_01_attack_000
+  - wraith_01_idle_006
+  - wraith_01_attack_002
+  - wraith_01_attack_005
+  - wraith_01_idle_005
+  - wraith_01_idle_011
+  - wraith_01_idle_008
+  - wraith_01_idle_003
+  - wraith_01_idle_002
+  - wraith_01_idle_000
+  - wraith_01_attack_009
+  - wraith_01_idle_001
+  - wraith_01_attack_001
+  - wraith_01_attack_004
+  m_RenderDataMap: {}
+  m_Tag: char_1_atlas
+  m_IsVariant: 0
