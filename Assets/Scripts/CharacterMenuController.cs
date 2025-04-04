@@ -40,12 +40,14 @@ public class CharacterMenuController : MonoBehaviour
                 _confirmButton.interactable = true;
                 _firstCharParticles.gameObject.SetActive(true);
                 _secondCharParticles.gameObject.SetActive(false);
+                PlayerPrefs.SetInt("SelectedCharacter", NumberOfChoosenChar);
                 break;
             case 2:
                 _secondCharAnimator.SetTrigger("CharacterChosen");
                 _confirmButton.interactable = true;
                 _firstCharParticles.gameObject.SetActive(false);
                 _secondCharParticles.gameObject.SetActive(true);
+                PlayerPrefs.SetInt("SelectedCharacter", NumberOfChoosenChar);
                 break;
         }
     }
