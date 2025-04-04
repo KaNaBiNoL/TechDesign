@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class CharacterMenuController : MonoBehaviour
@@ -15,6 +16,9 @@ public class CharacterMenuController : MonoBehaviour
     [SerializeField] private ParticleSystem _firstCharParticles;
     [SerializeField] private ParticleSystem _secondCharParticles;
     [SerializeField] private Button _confirmButton;
+    [SerializeField] private AudioSource _firstCharSound;
+    [SerializeField] private AudioSource _secondCharSound;
+    
 
     private void OnEnable()
     {
@@ -37,6 +41,7 @@ public class CharacterMenuController : MonoBehaviour
         {
             case 1:
                 _firstCharAnimator.SetTrigger("CharacterChosen");
+                _firstCharSound.Play();
                 _confirmButton.interactable = true;
                 _firstCharParticles.gameObject.SetActive(true);
                 _secondCharParticles.gameObject.SetActive(false);
@@ -44,6 +49,7 @@ public class CharacterMenuController : MonoBehaviour
                 break;
             case 2:
                 _secondCharAnimator.SetTrigger("CharacterChosen");
+                _secondCharSound.Play();
                 _confirmButton.interactable = true;
                 _firstCharParticles.gameObject.SetActive(false);
                 _secondCharParticles.gameObject.SetActive(true);
